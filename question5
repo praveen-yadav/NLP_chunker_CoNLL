@@ -1,0 +1,15 @@
+Assignment 5 : Develop a chunker
+
+• To get a more comprehensive understanding of chunking and chunk types see the posguidelines.pdf attached under this topic
+• Using the algorithms learnt in the classes before, develop a chunker. 
+• Use all other linguistic resources we have dealt with previously : POS, Morph etc. 
+• Data–English : import this data from nltk: http://www.nltk.org/howto/corpus.html#chunked-corpora
+      here is the document related to the data: http://www.cnts.ua.ac.be/conll2000/pdf/12732tjo.pdf
+• Develop a POS LM
+• From the chunk-annotated corpora develop a chunk-level LM.
+  –First make an LM for chunk tags.
+  –Generate some chunk-sequences from that LM. are they grammatical ?.
+  –Make chunk-tag specific LMs i.e. P(wordi|wordi−1,chunk − tag) for each word.
+  –Now, given a chunk-tag, you can generate words in a chunk.
+  –Combine all of this and you get a chunk-based LM generation
+• Compare POS LM and Chunk LM .
